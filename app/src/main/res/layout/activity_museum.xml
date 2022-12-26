@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MuseumActivity">
+
+    <TextView
+        android:id="@+id/txtview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Egyptian Museum"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        />
+
+    <ImageView
+        android:id="@+id/museumimg"
+        android:src="@drawable/egymuseusm"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtview1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        />
+
+    <TextView
+        android:id="@+id/txtview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/museumimg"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="The museum's star collection is the haul of golden treasures unearthed from Tutankhamen's tomb in the Valley of the Kings."
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtview2"
+        android:text="Check Google Maps"
+        android:layout_marginTop="30dp"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>
